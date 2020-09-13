@@ -1,1 +1,1 @@
-This is my first assignment in The Odin Project Web Dev course. 
+This is my first assignment in The Odin Project Web Dev course.
