@@ -1,3 +1,5 @@
+
+
 body, html {
     font-size: small;
     
@@ -36,18 +38,19 @@ ul {
 
 
 #toplinks {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
+    color:black
 }
 
 .signin {
-    background: #4387fd;
-    color: white;
+    background:#0756ee;
+    color: white !important;
     font-weight: bold;
     border-radius: 4px;
     border: none;
-    padding: 15px;
-    width: 80px;
+    padding: 11px !important;
+    width: 800px;
 }
 
 
@@ -57,7 +60,81 @@ ul {
    
 }
 
-#logo {
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
 
+#logo {
+    margin-top: 80px;
+    
+}
+
+#search {
+    opacity: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+   }
+
+.searchbar {
+    width: 100%;
+    text-align: center;
+    }
+
+.searchbox{
+    width: 500px;
+    border-radius: 30px;
+    height: 40px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #d7d7d7;
+    }
+
+    #mag {
+        position: relative;
+        left: -495px;
+        top: 12px;
+}
+
+#searchbuttons {
+    padding: 1px;
+    border-style: 
+}
+
+#googlesearch {
+    padding:10px;
+    border-style: none;
+    color: #646464;
+    background-color:#f2f2f2;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#fbar {
+}
+
+#country {
+    bottom: 10px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    border: solid 1px;
+    border-color: grey;
+}
+
+#bottomlinks {
+    margin: 5px;
+    padding: 5px;
 }
 
